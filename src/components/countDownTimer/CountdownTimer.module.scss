@@ -1,0 +1,18 @@
+.timer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-size: 30px;
+}
+
+.text {
+  font-size: 24px;
+}
+
+.number {
+  color: red;
+}
