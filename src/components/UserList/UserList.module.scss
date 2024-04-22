@@ -1,0 +1,14 @@
+.lists {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.title{
+    text-align: center;
+    &:not(:last-child){
+        margin-bottom: 20px;
+        font-size: 30px;
+    }
+}
